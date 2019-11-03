@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import ArticleList from '../components/ArticlesList';
-import NotFoundPage from '../pages/NotFoundPage';
 import articleContent from '../components/article-content';
+import LikeButton from '../components/LikeButton';
+import NotFoundPage from '../pages/NotFoundPage';
 
 const ArticlePage = ({ match }) => {
   const name = match.params.name;
@@ -28,11 +29,15 @@ const ArticlePage = ({ match }) => {
 
   return (
     <>
-      <h1>{article.title}</h1>
+      <h1 className="title">{article.title}</h1>
       {article.content.map((paragraph, key) => (
         <p key={key}>{paragraph}</p>
       ))}
-      {articleInfo.likes}
+      <LikeButton
+        articleName={name}
+        likes={articleInfo.likes}
+        setArticleInfo={setArticleInfo}
+      />
       <ArticleList articles={otherArticles} />
     </>
   );
