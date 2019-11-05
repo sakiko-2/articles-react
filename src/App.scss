@@ -1,0 +1,19 @@
+@import './styles/mystyles.scss';
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  text-align: center;
+  
+  p {
+    margin-bottom: 1em;
+    font-family: $secondary-font;
+  }
+
+  a {
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
