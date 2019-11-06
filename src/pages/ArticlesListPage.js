@@ -4,7 +4,7 @@ import articleContent from '../components/article-content';
 
 const ArticlesListPage = () => (
   <>
-    <h1>Articles</h1>
+    <h1 className="title">Articles</h1>
     <ArticlesList articles={articleContent} />
   </>
 );

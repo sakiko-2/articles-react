@@ -7,9 +7,9 @@ const Footer = () => {
 
   return (
     <footer>
-      <p className={footerStyles.content}>
+      <div className={footerStyles.content}>
         &copy;{` Copyright ${years} Sakiko. All rights reserved.`}
-      </p>
+      </div>
     </footer>
   );
 };

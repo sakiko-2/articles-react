@@ -1,5 +1,9 @@
+@import '../styles/mystyles.scss';
+
 .content {
+  font-family: $primary-font;
   font-size: 0.9rem;
+  margin: 1.5em;
 
   @media (max-width: 599.98px) {
     font-size: 0.7rem;

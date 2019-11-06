@@ -19,7 +19,7 @@ const NavBar = () => {
           <Feather />
         </Link>
         <Link
-          to=""
+          to="#"
           role="button"
           className={`navbar-burger ${showMenu}`}
           aria-label="menu"

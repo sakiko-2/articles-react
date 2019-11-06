@@ -1,0 +1,15 @@
+@import '../styles/mystyles.scss';
+
+.container {
+  margin: 1.5rem 0;
+  text-align: left;
+
+  &:not(:last-child) {
+    border-bottom: 1px solid $border;
+  }
+}
+
+.description {
+  color: $black;
+  margin-bottom: 1.5rem !important;
+}

@@ -3,6 +3,7 @@ import ArticleList from '../components/ArticlesList';
 import articleContent from '../components/article-content';
 import LikeButton from '../components/LikeButton';
 import NotFoundPage from '../pages/NotFoundPage';
+import articlePageStyles from './ArticlePage.module.scss';
 
 const ArticlePage = ({ match }) => {
   const name = match.params.name;
@@ -29,15 +30,19 @@ const ArticlePage = ({ match }) => {
 
   return (
     <>
-      <h1 className="title">{article.title}</h1>
-      {article.content.map((paragraph, key) => (
-        <p key={key}>{paragraph}</p>
-      ))}
-      <LikeButton
-        articleName={name}
-        likes={articleInfo.likes}
-        setArticleInfo={setArticleInfo}
-      />
+      <div className={articlePageStyles.article}>
+        <h1 className="title">{article.title}</h1>
+        {article.content.map((paragraph, key) => (
+          <p key={key} className={articlePageStyles.content}>
+            {paragraph}
+          </p>
+        ))}
+        <LikeButton
+          articleName={name}
+          likes={articleInfo.likes}
+          setArticleInfo={setArticleInfo}
+        />
+      </div>
       <ArticleList articles={otherArticles} />
     </>
   );

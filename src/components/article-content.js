@@ -1,5 +1,39 @@
 const articles = [
   {
+    name: 'evelina',
+    title: 'Evelina',
+    content: [
+      `We had not walked long, ere, at a distance, I perceived Lord Orville, who seemed just dismounted from his horse, enter the garden. All my perturbation returned at the sight of him!-yet I endeavoured to repress every feeling but resentment. As he approached us, he bowed to the whole party; but I turned away my head to avoid taking any share in his civility. Addressing himself immediately to Mrs. Beaumont, he was beginning to enquire after his sister: but, upon seeing my face, he suddenly exclaimed, "Miss Anville!-" and then he advanced, and made his compliments to me,-not with an air of vanity or impertinence, nor yet with a look of consciousness or shame;-but with a countenance open, manly, and charming!-with a smile that indicated pleasure, and eyes that sparkled with delight!-on my side was all that consciousness; for by him, I really believe, the , at that moment, entirely forgotten.`,
+      `With what politeness did he address me! with what sweetness did he look at me! the very tone of his voice seemed flattering! he congratulated himself upon his good fortune in meeting with me;-hoped I should spend some time in Bristol, and enquired, even with anxiety enquired, if my health was the cause of my journey; in which case his satisfaction would be converted into apprehension.`,
+      `Yet, struck as I was with his manner, and charmed to find him such as he was wont to be, imagine not, my dear Sir, that I forgot the resentment I owe him, or the cause he has given me of displeasure; no, my behaviour was such, as I hope, had you seen, you would not have disapproved: I was grave and distant; I scarce looked at him when he spoke, or answered him when he was silent.`,
+      `As he must certainly observe this alteration in my conduct, I think it could not fail making him both recollect and repent the provocation he had so causelessly given me; for surely he was not so wholly lost to reason, as to be now ignorant he had ever offended me.`,
+      `The moment that, without absolute rudeness, I was able, I turned entirely from him, and asked Mrs. Selwyn if we should not be late home? How Lord Orville looked I know not, for I avoided meeting his eyes; but he did not speak another word as we proceeded to the garden gate. Indeed, I believe, my abruptness surprised him, for he did not seem to expect I had so much spirit. And, to own the truth, convinced as I was of the propriety, nay, necessity, of showing my displeasure, I yet almost hated myself for receiving his politeness so ungraciously.`,
+      `When we were taking leave, my eyes accidentally meeting his, I could not but observe that his gravity equalled my own; for it had entirely taken place of the smiles and good humour with which he had met me.`
+    ]
+  },
+  {
+    name: 'dracula',
+    title: 'Dracula',
+    content: [
+      `"Oh, you so clever woman!" he said. "I knew long that Mr. Jonathan was a man of much thankfulness; but see, his wife have all the good things. And will you not so much honour me and so help me as to read it for me? Alas! I know not the shorthand." By this time my little joke was over, and I was almost ashamed; so I took the typewritten copy from my workbasket and handed it to him.`,
+      `"Forgive me," I said: "I could not help it; but I had been thinking that it was of dear Lucy that you wished to ask, and so that you might not have time to wait--not on my account, but because I know your time must be precious--I have written it out on the typewriter for you."`,
+      `He took it and his eyes glistened. "You are so good," he said. "And may I read it now? I may want to ask you some things when I have read."`,
+      `"By all means," I said, "read it over whilst I order lunch; and then you can ask me questions whilst we eat." He bowed and settled himself in a chair with his back to the light, and became absorbed in the papers, whilst I went to see after lunch chiefly in order that he might not be disturbed. When I came back, I found him walking hurriedly up and down the room, his face all ablaze with excitement. He rushed up to me and took me by both hands.`,
+      `"Oh, Madam Mina," he said, "how can I say what I owe to you? This paper is as sunshine. It opens the gate to me. I am daze, I am dazzle, with so much light, and yet clouds roll in behind the light every time. But that you do not, cannot, comprehend. Oh, but I am grateful to you, you so clever woman. Madam"--he said this very solemnly--"if ever Abraham Van Helsing can do anything for you or yours, I trust you will let me know. It will be pleasure and delight if I may serve you as a friend; as a friend, but all I have ever learned, all I can ever do, shall be for you and those you love. There are darknesses in life, and there are lights; you are one of the lights. You will have happy life and good life, and your husband will be blessed in you."`,
+      `"But, doctor, you praise me too much, and--and you do not know me."`
+    ]
+  },
+  {
+    name: 'jekyll',
+    title: 'Dr. Jekyll and Mr. Hyde',
+    content: [
+      `There was no mirror, at that date, in my room; that which stands beside me as I write, was brought there later on and for the very purpose of these transformations. The night however, was far gone into the morning--the morning, black as it was, was nearly ripe for the conception of the day--the inmates of my house were locked in the most rigorous hours of slumber; and I determined, flushed as I was with hope and triumph, to venture in my new shape as far as to my bedroom. I crossed the yard, wherein the constellations looked down upon me, I could have thought, with wonder, the first creature of that sort that their unsleeping vigilance had yet disclosed to them; I stole through the corridors, a stranger in my own house; and coming to my room, I saw for the first time the appearance of Edward Hyde.`,
+      `I must here speak by theory alone, saying not that which I know, but that which I suppose to be most probable. The evil side of my nature, to which I had now transferred the stamping efficacy, was less robust and less developed than the good which I had just deposed. Again, in the course of my life, which had been, after all, nine tenths a life of effort, virtue and control, it had been much less exercised and much less exhausted. And hence, as I think, it came about that Edward Hyde was so much smaller, slighter and younger than Henry Jekyll. Even as good shone upon the countenance of the one, evil was written broadly and plainly on the face of the other. Evil besides (which I must still believe to be the lethal side of man) had left on that body an imprint of deformity and decay. And yet when I looked upon that ugly idol in the glass, I was conscious of no repugnance, rather of a leap of welcome. This, too, was myself. It seemed natural and human. In my eyes it bore a livelier image of the spirit, it seemed more express and single, than the imperfect and divided countenance I had been hitherto accustomed to call mine. And in so far I was doubtless right. I have observed that when I wore the semblance of Edward Hyde, none could come near to me at first without a visible misgiving of the flesh. This, as I take it, was because all human beings, as we meet them, are commingled out of good and evil: and Edward Hyde, alone in the ranks of mankind, was pure evil.`,
+      `From that time forward, Mr. Utterson began to haunt the door in the by-street of shops. In the morning before office hours, at noon when business was plenty, and time scarce, at night under the face of the fogged city moon, by all lights and at all hours of solitude or concourse, the lawyer was to be found on his chosen post.`,
+      `“If he be Mr. Hyde,” he had thought, “I shall be Mr. Seek.”`
+    ]
+  },
+  {
     name: 'pride',
     title: 'Pride and Prejudice',
     content: [
@@ -10,11 +44,14 @@ const articles = [
     ]
   },
   {
-    name: 'jekyll',
-    title: 'Dr. Jekyll and Mr. Hyde',
+    name: 'sherlock',
+    title: 'The Adventures of Sherlock Holmes',
     content: [
-      `From that time forward, Mr. Utterson began to haunt the door in the by-street of shops. In the morning before office hours, at noon when business was plenty, and time scarce, at night under the face of the fogged city moon, by all lights and at all hours of solitude or concourse, the lawyer was to be found on his chosen post.`,
-      `“If he be Mr. Hyde,” he had thought, “I shall be Mr. Seek.”`
+      `"Alas!" replied our visitor, "the very horror of my situation lies in the fact that my fears are so vague, and my suspicions depend so entirely upon small points, which might seem trivial to another, that even he to whom of all others I have a right to look for help and advice looks upon all that I tell him about it as the fancies of a nervous woman. He does not say so, but I can read it from his soothing answers and averted eyes. But I have heard, Mr. Holmes, that you can see deeply into the manifold wickedness of the human heart. You may advise me how to walk amid the dangers which encompass me."`,
+      `"I am all attention, madam."`,
+      `"My name is Helen Stoner, and I am living with my stepfather, who is the last survivor of one of the oldest Saxon families in England, the Roylotts of Stoke Moran, on the western border of Surrey."`,
+      `Holmes nodded his head. "The name is familiar to me," said he.`,
+      `"The family was at one time among the richest in England, and the estates extended over the borders into Berkshire in the north, and Hampshire in the west. In the last century, however, four successive heirs were of a dissolute and wasteful disposition, and the family ruin was eventually completed by a gambler in the days of the Regency. Nothing was left save a few acres of ground, and the two-hundred-year-old house, which is itself crushed under a heavy mortgage. The last squire dragged out his existence there, living the horrible life of an aristocratic pauper; but his only son, my stepfather, seeing that he must adapt himself to the new conditions, obtained an advance from a relative, which enabled him to take a medical degree and went out to Calcutta, where, by his professional skill and his force of character, he established a large practice. In a fit of anger, however, caused by some robberies which had been perpetrated in the house, he beat his native butler to death and narrowly escaped a capital sentence. As it was, he suffered a long term of imprisonment and afterwards returned to England a morose and disappointed man.`
     ]
   }
 ];
