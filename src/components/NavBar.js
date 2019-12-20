@@ -26,9 +26,9 @@ const NavBar = () => {
           aria-expanded="false"
           onClick={() => toggleMenu()}
         >
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
+          <span aria-hidden="true" />
+          <span aria-hidden="true" />
+          <span aria-hidden="true" />
         </Link>
       </div>
       <div className={`navbar-menu ${showMenu}`}>
@@ -43,7 +43,7 @@ const NavBar = () => {
         </div>
       </div>
     </nav>
-  )
+  );
 };
 
 export default NavBar;

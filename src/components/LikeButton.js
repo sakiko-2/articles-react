@@ -5,12 +5,12 @@ import likeButtonStyles from './LikeButton.module.scss';
 const LikeButton = ({ articleName, likes, setArticleInfo }) => {
   const likeArticle = async () => {
     const result = await fetch(`/api/articles/${articleName}/like`, {
-      method: 'post'
+      method: 'post',
     });
     const body = await result.json();
     setArticleInfo(body);
   };
-  
+
   return (
     <div className={likeButtonStyles.container}>
       <span className={likeButtonStyles.like}>

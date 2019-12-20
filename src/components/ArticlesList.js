@@ -11,7 +11,10 @@ const ArticlesList = ({ articles }) => (
           to={`/article/${article.name}`}
         >
           <h3 className="subtitle">{article.title}</h3>
-          <p className={articleListStyles.description}>{article.content[0].substring(0, 150)}...</p>
+          <p className={articleListStyles.description}>
+            {article.content[0].substring(0, 150)}
+            ...
+          </p>
         </Link>
       </div>
     ))}
